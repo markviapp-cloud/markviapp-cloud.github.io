@@ -23,15 +23,16 @@
   usa, para quê e como removê-los.</p>
 
   <h2>Dados do Google</h2>
-  <p>Com a autorização da conta Google da Markvi, o aplicativo usa duas permissões do Google
-  Drive:</p>
+  <p>Com a autorização da conta Google da Markvi, o aplicativo usa uma única permissão do
+  Google Drive, <code>drive.file</code>, que dá acesso somente aos arquivos que o próprio
+  aplicativo cria. Com ela, o aplicativo:</p>
   <ul>
-    <li><code>drive.appdata</code>: uma pasta privada do aplicativo, invisível no Drive, onde
-    ficam as peças criadas, a agenda, as campanhas e as anotações, para o computador e o tablet
-    ficarem sincronizados;</li>
-    <li><code>drive.file</code>: somente os arquivos que o próprio aplicativo cria. É usada para
-    hospedar temporariamente a imagem ou o vídeo que vai ser publicado no Instagram. O arquivo
-    recebe um link de leitura apenas durante a publicação e é apagado do Drive logo depois.</li>
+    <li>mantém a pasta "Markvi Criador (não apague)" no Drive da Markvi, com as peças criadas,
+    a agenda, as campanhas e as anotações, para o computador e o tablet ficarem
+    sincronizados;</li>
+    <li>hospeda temporariamente a imagem ou o vídeo que vai ser publicado no Instagram. O
+    arquivo recebe um link de leitura apenas durante a publicação e é apagado do Drive logo
+    depois.</li>
   </ul>
   <p>O aplicativo não lê, não altera e não lista outros arquivos do Drive. Os dados do Google
   não são vendidos, não são compartilhados com terceiros, não são usados para publicidade e não
@@ -64,9 +65,8 @@
   <h2 id="exclusao">Exclusão de dados</h2>
   <ul>
     <li>Google: remova o acesso do "Markvi Criador" em
-    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. A
-    pasta privada do aplicativo pode ser apagada no Google Drive, em Configurações, Gerenciar
-    apps, "Markvi Criador", Excluir dados ocultos do app.</li>
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> e
+    apague a pasta "Markvi Criador (não apague)" no Google Drive.</li>
     <li>Instagram: remova o acesso em Configurações, Apps e sites, no próprio Instagram.</li>
     <li>No aplicativo: Config, Desconectar, para o Google Drive e para o Instagram.</li>
   </ul>
